@@ -1,6 +1,6 @@
 <?php
 
-namespace VV\Hafenk\Evaluation;
+namespace VV\T3imagealternative\Evaluation;
 
 use TYPO3\CMS\Core\Database\ConnectionPool;
 use TYPO3\CMS\Core\Messaging\FlashMessage;
