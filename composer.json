@@ -1,5 +1,6 @@
 {
     "name": "visuellverstehen/t3imagealternative",
+    "description": "This extension provides evaluation for image alternatives",
     "type": "typo3-cms-extension",
     "license": "MIT",
     "authors": [
