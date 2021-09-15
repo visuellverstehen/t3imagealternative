@@ -1,0 +1,7 @@
+services:
+  VV\T3imagealternative\EventListener\RegisterTca:
+    tags:
+      - name: event.listener
+        identifier: 'myListener'
+        # before: 'redirects, anotherIdentifier'
+        event: TYPO3\CMS\Core\Configuration\Event\AfterTcaCompilationEvent
