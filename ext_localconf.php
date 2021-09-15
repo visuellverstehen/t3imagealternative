@@ -2,7 +2,6 @@
 
 defined('TYPO3_MODE') or die();
 
-
 $GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['tce']['formevals'][\VV\T3imagealternative\Evaluation\ImageAlternative::class]
     = '';
 
@@ -17,3 +16,7 @@ $GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['tce']['formevals'][\VV\T3imagealterna
             ]
         ]
     );
+
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig('
+    TCEFORM.sys_file_reference.alternative.disabled = 0
+');
