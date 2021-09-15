@@ -24,7 +24,7 @@ class ImageAlternative
             foreach ($_POST['data']['sys_file_reference'] as $index => $sysFileReference) {
 
                 // Skip records with filled alternative field
-                if ($sysFileReference['alternative'] !== '') {
+                if (isset($sysFileReference['alternative']) === false || $sysFileReference['alternative'] !== '') {
                     continue;
                 }
 
